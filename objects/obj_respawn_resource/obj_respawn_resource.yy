@@ -14,8 +14,8 @@
   "name":"obj_respawn_resource",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Leo",
+    "path":"folders/Leo.yy",
   },
   "parentObjectId":null,
   "persistent":false,

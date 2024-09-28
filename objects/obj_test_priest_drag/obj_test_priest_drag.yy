@@ -8,8 +8,8 @@
   "name":"obj_test_priest_drag",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Leo",
+    "path":"folders/Leo.yy",
   },
   "parentObjectId":null,
   "persistent":false,

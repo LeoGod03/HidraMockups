@@ -10,8 +10,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_respawn_resource","path":"objects/obj_respawn_resource/obj_respawn_resource.yy",},"propertyId":{"name":"text_info","path":"objects/obj_respawn_resource/obj_respawn_resource.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Player",},
   ],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Leo",
+    "path":"folders/Leo.yy",
   },
   "parentObjectId":{
     "name":"obj_respawn_resource",
