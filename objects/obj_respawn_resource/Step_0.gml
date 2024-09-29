@@ -1,4 +1,5 @@
 /// @description
+position_x = 350 + 160 * position;
 
 if(global.selection){
 	selection = false;

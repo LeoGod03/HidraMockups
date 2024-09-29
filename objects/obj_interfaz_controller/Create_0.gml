@@ -18,5 +18,3 @@ global.position_cursor_y = -1;
 global.list_resources = [];
 global.list_resources[0] = instance_create_depth(0, 0, -1, obj_respawn_player);
 global.list_resources[1] = instance_create_depth(0, 0, -1, obj_respawn_arquero);
-global.list_resources[2] = instance_create_depth(0, 0, -1, obj_respawn_caballero);
-global.list_resources[3] = instance_create_depth(0, 0, -1, obj_respawn_sacerdote);

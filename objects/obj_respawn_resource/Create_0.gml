@@ -1,5 +1,5 @@
 /// @description
-position_x = 250 + 160 * position;
+position_x = 350 + 160 * position;
 position_y = 96;
 
 width = sprite_get_width(sprite_resource) * 6;
