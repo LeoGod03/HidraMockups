@@ -9,12 +9,10 @@ global.grid_width = 128;
 count_grid_x = 0;
 count_grid_y = 0;
 
-global.width = display_get_gui_width();
-global.height = display_get_gui_height();
+global.width = 1920;
+global.height = 1080;
 
 global.position_cursor_x = -1;
 global.position_cursor_y = -1;
 
-global.list_resources = [];
-global.list_resources[0] = instance_create_depth(0, 0, -1, obj_respawn_player);
-global.list_resources[1] = instance_create_depth(0, 0, -1, obj_respawn_arquero);
+alarm[0] = 10;

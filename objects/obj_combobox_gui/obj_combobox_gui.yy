@@ -11,8 +11,8 @@
   "name":"obj_combobox_gui",
   "overriddenProperties":[],
   "parent":{
-    "name":"Leo",
-    "path":"folders/Leo.yy",
+    "name":"Fhaters",
+    "path":"folders/Leo/Fhaters.yy",
   },
   "parentObjectId":null,
   "persistent":false,

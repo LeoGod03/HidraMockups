@@ -1,4 +1,5 @@
 function scr_resources_change(_index_combobox){
+	// se va a cambiar xd
 	instance_destroy(obj_respawn_resource);
 	var _respawn;
 	switch(_index_combobox){
