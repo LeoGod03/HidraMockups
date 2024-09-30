@@ -8,8 +8,8 @@
   "name":"obj_test_archer_drag",
   "overriddenProperties":[],
   "parent":{
-    "name":"Leo",
-    "path":"folders/Leo.yy",
+    "name":"Object test",
+    "path":"folders/Leo/Object test.yy",
   },
   "parentObjectId":null,
   "persistent":false,

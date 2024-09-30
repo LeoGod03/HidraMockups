@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_test_wizzard_drag",
+  "%Name":"obj_test_elfo_drag",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_test_wizzard_drag",
+  "name":"obj_test_elfo_drag",
   "overriddenProperties":[],
   "parent":{
     "name":"Object test",
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_mago",
-    "path":"sprites/spr_mago/spr_mago.yy",
+    "name":"spr_arquero_elfo",
+    "path":"sprites/spr_arquero_elfo/spr_arquero_elfo.yy",
   },
   "spriteMaskId":null,
   "visible":true,
