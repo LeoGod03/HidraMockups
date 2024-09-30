@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Object test",
-    "path":"folders/Leo/Object test.yy",
+    "path":"folders/Octa/Object test.yy",
   },
   "parentObjectId":null,
   "persistent":false,
