@@ -1,6 +1,5 @@
 /// @description
 panel_top_active = true;
-panel_right_active = true;
 grid_draw_active = false;
 
 global.grid_height = 128;
@@ -15,4 +14,4 @@ global.height = 1080;
 global.position_cursor_x = -1;
 global.position_cursor_y = -1;
 
-alarm[0] = 10;
+alarm[0] = game_get_speed(gamespeed_fps) * 0.5;
