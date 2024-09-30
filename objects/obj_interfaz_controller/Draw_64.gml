@@ -18,16 +18,6 @@ if(panel_top_active){
 	draw_text(global.width / 2,  global.height * 0.1, "Panel 1");
 }
 
-if(panel_right_active){
-	
-	draw_set_color(c_black);
-	draw_rectangle(global.width * 0.8, global.height * 0.20, global.width, global.height, 0);
-	draw_set_color(c_white);
-	draw_rectangle(global.width * 0.8 + _border,global.height * 0.20 + _border, global.width - _border, global.height - _border, 0);
-	draw_set_color(c_black);
-	draw_text(global.width * 0.9,  global.height * 0.6, "Panel 2");
-		
-}
 
 
 draw_set_color(c_black);
