@@ -48,6 +48,7 @@
     {"id":{"name":"obj_combobox_gui","path":"objects/obj_combobox_gui/obj_combobox_gui.yy",},},
     {"id":{"name":"obj_interfaz_controller","path":"objects/obj_interfaz_controller/obj_interfaz_controller.yy",},},
     {"id":{"name":"obj_menu_button_bar","path":"objects/obj_menu_button_bar/obj_menu_button_bar.yy",},},
+    {"id":{"name":"obj_panel_right","path":"objects/obj_panel_right/obj_panel_right.yy",},},
     {"id":{"name":"obj_respawn_arquero","path":"objects/obj_respawn_arquero/obj_respawn_arquero.yy",},},
     {"id":{"name":"obj_respawn_caballero","path":"objects/obj_respawn_caballero/obj_respawn_caballero.yy",},},
     {"id":{"name":"obj_respawn_mago","path":"objects/obj_respawn_mago/obj_respawn_mago.yy",},},
@@ -74,8 +75,8 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_test_leo","path":"rooms/rm_test_leo/rm_test_leo.yy",},},
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"rm_test_octa","path":"rooms/rm_test_octa/rm_test_octa.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
