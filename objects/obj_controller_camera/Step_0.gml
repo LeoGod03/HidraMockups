@@ -21,15 +21,25 @@ y_previus = mouse_position_y;
 
 
 //zoom
-if(mouse_wheel_up()){
-	height_camera = height_camera * 0.95;
-	width_camera = width_camera * 0.95;
-}
+if(!global.selection){
+	if(mouse_wheel_up()){
+		height_camera = height_camera * 0.95;
+		width_camera = width_camera * 0.95;
+		if(!zoom_view){
+			zoom_view = true;
+			alarm[0] = game_get_speed(gamespeed_fps) * 0.5;
+		}
+	}
 
-if(mouse_wheel_down()){
-	height_camera = height_camera * 1.05;
-	width_camera = width_camera * 1.05;
+	if(mouse_wheel_down()){
+		height_camera = height_camera * 1.05;
+		width_camera = width_camera * 1.05;
+		if(!zoom_view){
+			zoom_view = true;
+			alarm[0] = game_get_speed(gamespeed_fps) * 0.5;
+		}
 	
+	}
 }
 height_camera = clamp(height_camera, max_height_camera * 0.10, max_height_camera);
 width_camera = clamp(width_camera, max_width_camera * 0.10, max_width_camera);
@@ -38,7 +48,7 @@ camera_set_view_size(view_camera[0], width_camera, height_camera);
 
 
 
-// que no salga de la habitación la puta cámara xd
+// que no salga de la habitación la cámara xd
 camera_x = clamp(camera_x,0,room_width-camera_get_view_width(view_camera[0]) - 256);
 camera_y = clamp(camera_y,145,room_height-camera_get_view_height(view_camera[0]));
 
