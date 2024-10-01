@@ -21,4 +21,4 @@ if(panel_top_active){
 
 
 draw_set_color(c_black);
-draw_text(global.width / 2, global.height /2, string(global.position_cursor_x) + "/" + string(global.position_cursor_y) + "/" + string(floor(global.position_cursor_x / global.grid_width)));
+draw_text(global.width / 2, global.height /2,string(290 + global.grid_height * floor((global.position_cursor_y - 280) / global.grid_height) ));
