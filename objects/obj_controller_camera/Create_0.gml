@@ -16,3 +16,5 @@ height_camera = camera_get_view_height(view_camera[0]);
 
 max_width_camera = width_camera;
 max_height_camera = height_camera;
+
+zoom_view = false;
