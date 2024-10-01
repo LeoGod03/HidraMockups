@@ -1,17 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_test_player_drag",
+  "%Name":"obj_buttons_alpha",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":8,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_test_player_drag",
+  "name":"obj_buttons_alpha",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object test",
-    "path":"folders/Octa/Object test.yy",
+    "name":"objetos",
+    "path":"folders/Octa/objetos.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_test_stickman",
-    "path":"sprites/spr_test_stickman/spr_test_stickman.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
