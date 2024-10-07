@@ -82,6 +82,8 @@
     {"id":{"name":"spr_arquero","path":"sprites/spr_arquero/spr_arquero.yy",},},
     {"id":{"name":"spr_caballero","path":"sprites/spr_caballero/spr_caballero.yy",},},
     {"id":{"name":"spr_mago","path":"sprites/spr_mago/spr_mago.yy",},},
+    {"id":{"name":"spr_rectangulo_panel_left","path":"sprites/spr_rectangulo_panel_left/spr_rectangulo_panel_left.yy",},},
+    {"id":{"name":"spr_rectangulo_panel1","path":"sprites/spr_rectangulo_panel1/spr_rectangulo_panel1.yy",},},
     {"id":{"name":"spr_sacerdote","path":"sprites/spr_sacerdote/spr_sacerdote.yy",},},
     {"id":{"name":"spr_test_stickman","path":"sprites/spr_test_stickman/spr_test_stickman.yy",},},
   ],
