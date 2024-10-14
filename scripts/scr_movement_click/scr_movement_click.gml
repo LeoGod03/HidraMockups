@@ -1,4 +1,7 @@
 function scr_movement_click(){
+	if(mouse_y < global.position_cursor_y) exit;
+	
+	if(mouse_x < global.position_cursor_x) exit;
 	
 	if(!mouse_check_button(mb_left)) exit;
 	

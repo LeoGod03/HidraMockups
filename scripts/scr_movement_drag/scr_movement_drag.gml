@@ -1,4 +1,10 @@
 function scr_movement_drag(){
+	
+	if(mouse_y < global.position_cursor_y) exit;
+	
+	if(mouse_x < global.position_cursor_x) exit;
+	
+	
 	depth = -y;
 	var _distance_to_movement = 0;
 	
