@@ -1,5 +1,13 @@
 
 function scr_globales_leo(){
+	
+	enum MOVEMENTYPE{
+		JOYSTICK,
+		PAD,
+		POINTCLICK,
+		DRAGMOUSE
+	}
+	
 	global.index_column = 0;
 	global.list_resources = [];
 	
