@@ -89,8 +89,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_test_octa","path":"rooms/rm_test_octa/rm_test_octa.yy",},},
     {"roomId":{"name":"rm_test_leo","path":"rooms/rm_test_leo/rm_test_leo.yy",},},
+    {"roomId":{"name":"rm_test_octa","path":"rooms/rm_test_octa/rm_test_octa.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType":"game",
