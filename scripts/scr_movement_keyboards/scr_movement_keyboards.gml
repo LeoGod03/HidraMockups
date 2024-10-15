@@ -1,8 +1,20 @@
 function scr_movement_keyboards(){
 	
 	depth = -y;
-	var _x_component = (keyboard_check(vk_right) - keyboard_check(vk_left));
-	var _y_component = (keyboard_check(vk_down) - keyboard_check(vk_up));
+	var _up, _down, _left, _right;
+	_up = false;
+	_down = false;
+	_left = false;
+	_right = false;
+	
+	if(device_mouse_check_button(0, mb_left)){
+		_up = device_mouse_x_to_gui(0) >= 460 && device_mouse_x_to_gui(0) <= 540 && device_mouse_y_to_gui(0) >= 785 && device_mouse_y_to_gui(0) <= 865;
+		_down = device_mouse_x_to_gui(0) >= 460 && device_mouse_x_to_gui(0) <= 540 && device_mouse_y_to_gui(0) >= 945 && device_mouse_y_to_gui(0) <= 1025;
+		_left = device_mouse_x_to_gui(0) >= 380 && device_mouse_x_to_gui(0) <= 460 && device_mouse_y_to_gui(0) >= 865 && device_mouse_y_to_gui(0) <= 945;
+		_right = device_mouse_x_to_gui(0) >= 550 && device_mouse_x_to_gui(0) <= 630 && device_mouse_y_to_gui(0) >= 865 && device_mouse_y_to_gui(0) <= 945;
+	}
+	var _x_component = ((keyboard_check(ord("D")) || _right) - (keyboard_check(ord("A")) || _left));
+	var _y_component = ((keyboard_check(ord("S")) || _down) - (keyboard_check(ord("W")) || _up));
 
 	var _length = sqrt(power(_x_component, 2) + power(_y_component, 2));
 			
@@ -19,4 +31,7 @@ function scr_movement_keyboards(){
 			speed = 0;
 	}else
 		speed = 0;
+		
+	
+	
 }
