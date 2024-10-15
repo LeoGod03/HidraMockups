@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_movements",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_movements",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Leo/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

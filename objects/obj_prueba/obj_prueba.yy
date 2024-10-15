@@ -9,7 +9,10 @@
     "name":"Leo",
     "path":"folders/Leo.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_player",
+    "path":"objects/obj_player/obj_player.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
