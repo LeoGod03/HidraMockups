@@ -1,5 +1,5 @@
 /// @description 
-draw_text(960, 400, string(width_camera) + "/" + string(height_camera));
+//draw_text(960, 400, string(width_camera) + "/" + string(height_camera));
 if(!zoom_view) exit;
 
 draw_set_halign(fa_center);
