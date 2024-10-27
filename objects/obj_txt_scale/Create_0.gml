@@ -21,3 +21,8 @@ texto2 = "";  // Variable para almacenar el texto ingresado del rectngulo 2
 num_ingresado_permitidos_2 =3;
 numero_ingresado_2 = 0;
 numero_ingresado_string_2= "";
+
+
+// Evento de Creación
+estado = "inicial"; // Estado inicial del autómata
+numero = 0;         // Número que se ingresará para verificar

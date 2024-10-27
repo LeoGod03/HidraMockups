@@ -13,26 +13,14 @@ if (activo_rectangulo_x ) {
     // Validamos si hay un carácter ingresado y si la longitud permite más caracteres
     if (keyboard_lastchar != "" && string_length(texto) < num_ingresado_permitidos) {
         // Validamos que el carácter sea un número
-        if ((keyboard_lastchar >= "0" && keyboard_lastchar <= "9") || keyboard_lastchar == "-"|| keyboard_lastchar == "." ) {
+        if ((keyboard_lastchar >= "0" && keyboard_lastchar <= "6") || keyboard_lastchar == "-"|| keyboard_lastchar == "." ) {
             numero_ingresado_string += keyboard_lastchar;
-           // numero_ingresado = real(numero_ingresado_string);
-          if( string_count("-",numero_ingresado_string)<=1){
-				if((numero_ingresado_string<= "0" && numero_ingresado_string >="6") || numero_ingresado=="."<=1){
-						texto += keyboard_lastchar; // Agrega el carácter al texto solo si está dentro del rango	
-				}
-			
-		  }
-		  
-		  /*
-		   if (numero_ingresado <= 359 &&  !(numero_ingresado_string="00") ) {
-                texto2 += keyboard_lastchar; // Agrega el carácter al texto solo si está dentro del rango
-            } else {
-                // Si se excede 359, remueve el último carácter añadido
-                numero_ingresado_string = string_copy(numero_ingresado_string, 1, string_length(numero_ingresado_string) - 1);
-            }*/
+			texto += keyboard_lastchar;
+		 
         }
         keyboard_lastchar = ""; // Limpia el carácter del teclado
     }
+	//
 
 if (keyboard_check_pressed(vk_backspace)) {
         if (string_length(texto) > 0) {
