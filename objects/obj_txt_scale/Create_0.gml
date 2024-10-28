@@ -1,4 +1,4 @@
-texto = "";  // Variable para almacenar el texto ingresado del rectngulo 1
+texto ="";  // Variable para almacenar el texto ingresado del rectngulo 1
 
 //max_caracteres = 20;  // Máximo de caracteres permitidos
 activo_rectangulo_x = false;  // Para controlar si el campo está activo
@@ -12,7 +12,7 @@ _x_alpha = global.panel_dos_x-80;
 _y_alpha = global.panel_dos_y + 150;
 
 
-num_ingresado_permitidos=3;
+num_ingresado_permitidos=4;
 numero_ingresado = 0;
 numero_ingresado_string= "";
 
@@ -26,3 +26,4 @@ numero_ingresado_string_2= "";
 // Evento de Creación
 estado = "inicial"; // Estado inicial del autómata
 numero = 0;         // Número que se ingresará para verificar
+
