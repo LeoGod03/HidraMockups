@@ -87,4 +87,7 @@ if(activo_negativo){
 	ch_activado="";
 }
 
-   
+//Retornamos el valor de texto
+if(!(texto=="") && activo == false){
+	retornar= true;
+}

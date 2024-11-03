@@ -14,3 +14,11 @@ num_ingresado_permitidos =3;
 
 numero_ingresado = 0;
 numero_ingresado_string= "";
+
+retornar = false;
+
+get_rotation = function() {
+    if(retornar){
+		return texto;
+	}
+};	

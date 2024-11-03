@@ -26,3 +26,16 @@ ch_activado="";
  estado = "Inicio";
 // texto = "";
  num_decimales = 0;
+
+retornar = false;
+
+get_scale_x = function() {
+    if(retornar){
+		if(activo_negativo){
+			return "-"+texto;
+		}else{
+			return texto;
+		}
+		
+	}
+};	

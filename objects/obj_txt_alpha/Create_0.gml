@@ -16,3 +16,10 @@ numero_ingresado=0;
  estado = "Inicio";
 // texto = "";
  num_decimales = 0;
+ retornar = false;
+ 
+ get_alpha = function(){
+	 if(retornar){
+		 return texto;
+	 }
+ };

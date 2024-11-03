@@ -50,3 +50,8 @@ if (keyboard_lastchar != "") {
         }
     }
 }
+
+if(activo == false && !(texto=="")){
+	retornar=true;
+
+}

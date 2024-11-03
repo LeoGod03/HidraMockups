@@ -41,3 +41,7 @@ if (activo) {
     }
 }
 
+if(activo == false && !(texto=="")){
+	retornar=true;
+
+}
