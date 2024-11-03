@@ -1,6 +1,5 @@
 /// @description 
 //dibujar los paneles de la GUI
-
 if(!variable_global_exists("width") && !variable_global_exists("height")) exit;
 
 
@@ -19,6 +18,7 @@ if(panel_left_active){
 	draw_set_color(c_black);
 	draw_rectangle( 20, 230, 265, 380, 0);
 }
+
 
 
 

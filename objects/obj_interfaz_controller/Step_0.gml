@@ -15,3 +15,5 @@ if(keyboard_check_pressed(ord("G"))){
 		count_grid_y = (room_height - 280) / global.grid_height;
 	}
 }
+
+
