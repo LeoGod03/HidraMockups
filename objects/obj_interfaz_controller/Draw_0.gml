@@ -1,4 +1,8 @@
 /// @description 
+draw_set_color(c_green);
+draw_rectangle(190, 290, lenght_level_width, lenght_level_height, 0);
+
+
 if(grid_draw_active){
 	var _pos_x = 190;
 	var _pos_y = 290;
