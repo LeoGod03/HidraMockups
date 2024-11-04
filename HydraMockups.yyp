@@ -90,6 +90,7 @@
     {"id":{"name":"rm_test_leo","path":"rooms/rm_test_leo/rm_test_leo.yy",},},
     {"id":{"name":"rm_test_octa","path":"rooms/rm_test_octa/rm_test_octa.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"scr_change_sprites","path":"scripts/scr_change_sprites/scr_change_sprites.yy",},},
     {"id":{"name":"scr_draw_controls_player","path":"scripts/scr_draw_controls_player/scr_draw_controls_player.yy",},},
     {"id":{"name":"scr_draw_gui_controls_player","path":"scripts/scr_draw_gui_controls_player/scr_draw_gui_controls_player.yy",},},
     {"id":{"name":"scr_globales_leo","path":"scripts/scr_globales_leo/scr_globales_leo.yy",},},
