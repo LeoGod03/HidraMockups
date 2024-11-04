@@ -1,4 +1,3 @@
-
 instance_create_depth(x,y,-1,obj_panel_right);
 alpha = instance_create_depth(x, y, -2, obj_txt_alpha);
 scale_x = instance_create_depth(x, y, -2, obj_txt_scale_x);
