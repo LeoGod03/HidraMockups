@@ -22,10 +22,10 @@ function scr_movement_drag(){
 			sprite_index = spr_zombie_run;
 		*/	
 	
-		if(_distance_to_movement > 45){
+		if(_distance_to_movement > 16){
 			direction = round(point_direction(x, y, mouse_x, mouse_y));
 			if(place_free(x + lengthdir_x(_distance_to_movement, direction), y + lengthdir_y(_distance_to_movement, direction)))
-				speed = velocity + (2 * (_distance_to_movement >= 80));	
+				speed = velocity;// + (2 * (_distance_to_movement >= 80));	
 			else
 				speed = 0;	
 		

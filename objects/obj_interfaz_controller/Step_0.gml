@@ -11,7 +11,9 @@ if(keyboard_check_pressed(ord("G"))){
 	
 	grid_draw_active = !grid_draw_active;
 	if(grid_draw_active){
-		count_grid_x = (room_width - 256 - 190) / global.grid_width;
-		count_grid_y = (room_height - 280) / global.grid_height;
+		count_grid_x = (lenght_level_width - 256 - 190) / global.grid_width;
+		count_grid_y = (lenght_level_height - 280) / global.grid_height;
 	}
 }
+
+

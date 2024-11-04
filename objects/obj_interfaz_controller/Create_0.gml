@@ -4,8 +4,8 @@ panel_left_active = true;
 
 grid_draw_active = false;
 
-global.grid_height = 128;
-global.grid_width = 128;
+global.grid_height = 16;
+global.grid_width = 16;
 
 count_grid_x = 0;
 count_grid_y = 0;

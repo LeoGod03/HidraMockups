@@ -48,18 +48,15 @@ function scr_globales_leo(){
 	global.list_resources[3][2][0] = obj_respawn_mago;
 	
 	//columna 4 de todas las categorias
-	global.list_resources[0][3][0] = obj_control_joystick;
-	global.list_resources[0][3][1] = obj_control_keyboards;
-	global.list_resources[0][3][2] = obj_control_click;
-	global.list_resources[0][3][3] = obj_control_drag;
+	for(var _index = 0; _index < 4; _index ++){
+		global.list_resources[_index][3][0] = obj_control_joystick;
+		global.list_resources[_index][3][1] = obj_control_keyboards;
+		global.list_resources[_index][3][2] = obj_control_click;
+		global.list_resources[_index][3][3] = obj_control_drag;
+	}
 	
 	
-	global.list_resources[1][3][0] = obj_respawn_caballero;
-	global.list_resources[1][3][1] = obj_respawn_player;
 	
-	global.list_resources[2][3][0] = obj_respawn_mago;
-	
-	global.list_resources[3][3][0] = obj_respawn_caballero;
 	
 	
 	
