@@ -8,8 +8,8 @@
   "name":"obj_test_knight_drag",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object test",
-    "path":"folders/Leo/Object test.yy",
+    "name":"Octa",
+    "path":"folders/Octa.yy",
   },
   "parentObjectId":{
     "name":"obj_player",
