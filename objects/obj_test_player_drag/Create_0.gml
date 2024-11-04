@@ -1,6 +1,4 @@
 /// @description 
-image_xscale = 5;
-image_yscale = 5;
 
 sprites = array_create(4, noone);
 

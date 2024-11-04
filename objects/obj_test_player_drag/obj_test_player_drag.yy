@@ -6,7 +6,9 @@
   ],
   "managed":true,
   "name":"obj_test_player_drag",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"propertyId":{"name":"velocity","path":"objects/obj_player/obj_player.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
+  ],
   "parent":{
     "name":"Object test",
     "path":"folders/Leo/Object test.yy",

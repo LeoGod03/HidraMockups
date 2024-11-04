@@ -10,12 +10,16 @@ mouse_position_x = noone;
 mouse_position_y = noone;
 
 // zoom
-zoom_change = 10;
+
 width_camera = camera_get_view_width(view_camera[0]);
 height_camera = camera_get_view_height(view_camera[0]);
 
+zoom_change_width = width_camera * 0.05;
+zoom_change_height = height_camera * 0.05;
 
-max_width_camera = width_camera;
-max_height_camera = height_camera;
+max_width_camera = obj_interfaz_controller.lenght_level_width;
+max_height_camera = obj_interfaz_controller.lenght_level_height;
 
+//camera_set_view_size(view_camera[0], width_camera, height_camera);
+camera_set_view_pos(view_camera[0], 142.5, 255);
 zoom_view = false;
