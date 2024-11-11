@@ -21,3 +21,11 @@ get_scale_y = function(){
 	return scale_y.get_scale_y();	
 };
 
+limpiar_widgets = function(){
+	 alpha.limpiar_alpha();
+	 scale_x.limpiar_scale_x();
+	 scale_y.limpiar_scale_y();
+	 rotation.limpiar_rotation();
+};
+
+

@@ -8,8 +8,6 @@ global.panel_dos_x = 1750;//se posiciona a la mitad de nustro panel 2
 _x_alpha = global.panel_dos_x-80;
 _y_alpha = global.panel_dos_y + 50;
 
-numeroMax = 0;
-numeroMin = 1;
 num_ingresado_permitidos =1;
 
 numero_ingresado = 0;
@@ -24,18 +22,27 @@ activo_negativo = false;
 ch_activado="";
 
  estado = "Inicio";
-// texto = "";
  num_decimales = 0;
 
 retornar = false;
 
+
 get_scale_x = function() {
     if(retornar){
 		if(activo_negativo){
-			return "-"+texto;
+			if(string_length(texto)>0){ 
+				return "-"+texto;
+			}else{
+				activo_negativo = false;
+			}
 		}else{
 			return texto;
 		}
 		
 	}
-};	
+};
+
+limpiar_scale_x = function(){
+	texto = "";
+	activo_negativo = false;
+};

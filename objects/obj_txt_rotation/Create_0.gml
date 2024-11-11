@@ -8,8 +8,6 @@ global.panel_dos_x = 1750;//se posiciona a la mitad de nustro panel 2
 _x_alpha = global.panel_dos_x-80;
 _y_alpha = global.panel_dos_y + 50;
 
-numeroMax = 0;
-numeroMin = 1;
 num_ingresado_permitidos =3;
 
 numero_ingresado = 0;
@@ -21,4 +19,9 @@ get_rotation = function() {
     if(retornar){
 		return texto;
 	}
-};	
+};
+
+limpiar_rotation = function(){
+	texto ="";
+	numero_ingresado_string="";
+};

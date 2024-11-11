@@ -30,10 +30,19 @@ retornar = false;
 get_scale_y = function() {
     if(retornar){
 		if(activo_negativo){
-			return "-"+texto;
+			if(string_length(texto)>0){ 
+				return "-"+texto;
+			}else{
+				activo_negativo = false;
+			}
 		}else{
 			return texto;
 		}
 		
 	}
+};
+
+limpiar_scale_y = function(){
+	texto = "";
+	activo_negativo = false;
 };

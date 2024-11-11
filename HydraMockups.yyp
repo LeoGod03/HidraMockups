@@ -104,6 +104,7 @@
     {"id":{"name":"scr_movement_joystick","path":"scripts/scr_movement_joystick/scr_movement_joystick.yy",},},
     {"id":{"name":"scr_movement_keyboards","path":"scripts/scr_movement_keyboards/scr_movement_keyboards.yy",},},
     {"id":{"name":"scr_movements","path":"scripts/scr_movements/scr_movements.yy",},},
+    {"id":{"name":"scr_numero_decimal","path":"scripts/scr_numero_decimal/scr_numero_decimal.yy",},},
     {"id":{"name":"scr_resources_change","path":"scripts/scr_resources_change/scr_resources_change.yy",},},
     {"id":{"name":"spr_arquero_elfo","path":"sprites/spr_arquero_elfo/spr_arquero_elfo.yy",},},
     {"id":{"name":"spr_arquero","path":"sprites/spr_arquero/spr_arquero.yy",},},
@@ -166,8 +167,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_test_leo","path":"rooms/rm_test_leo/rm_test_leo.yy",},},
     {"roomId":{"name":"rm_test_octa","path":"rooms/rm_test_octa/rm_test_octa.yy",},},
+    {"roomId":{"name":"rm_test_leo","path":"rooms/rm_test_leo/rm_test_leo.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType":"game",
