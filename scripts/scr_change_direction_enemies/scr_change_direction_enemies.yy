@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_change_sprites",
+  "%Name":"scr_change_direction_enemies",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_change_sprites",
+  "name":"scr_change_direction_enemies",
   "parent":{
     "name":"Scripts",
     "path":"folders/Leo/Scripts.yy",

@@ -23,3 +23,5 @@ lenght_level_height = 720;
 
 max_lenght_level_width = room_width;
 max_lenght_level_height = room_height;
+
+list_elements_panel = [];
