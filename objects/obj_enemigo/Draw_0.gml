@@ -1,6 +1,7 @@
 /// @description dibujar vida y demas
 
 draw_self();
+draw_set_color(c_white);
 
 draw_set_color(c_red);
 draw_rectangle(x - life / 2 / life_divisor,
@@ -11,8 +12,9 @@ draw_rectangle(x - life / 2 / life_divisor,
 			   
 draw_set_color(c_red);
 
-	
-draw_line(x, y, collision_points[0], collision_points[1]);
+if(collision_points[0] != 0)
+	draw_line_width(x, y, collision_points[0], collision_points[1], 2);
+
 if(!variable_instance_exists(id, "points_path")) exit;
 if(!variable_instance_exists(id, "edit_points")) exit;
 

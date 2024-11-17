@@ -1,4 +1,5 @@
 /// @description 
+if(global.action) exit;
 if(global.selection) exit;
 
 if(enter_options){

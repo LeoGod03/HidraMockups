@@ -1,4 +1,7 @@
 /// @description 
+
+if(global.action) exit;
+
 if(!selection) exit;
 
 if(global.index_column == index_selection) exit;

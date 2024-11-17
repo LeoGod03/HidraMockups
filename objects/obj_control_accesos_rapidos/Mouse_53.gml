@@ -1,5 +1,10 @@
 /// @description 
+if(global.action) exit;
+
 if(index_selection == -1) exit;
+
+global.action = false;
+
 
 switch(index_selection){
 	case ACCESSELEMENT.MOVEMENT:
@@ -7,6 +12,7 @@ switch(index_selection){
 			movement_pointer = true;
 			image_blend = c_purple;
 		}
+		global.action = true;
 		break;
 	case ACCESSELEMENT.DELETE:
 		instance_destroy(element);

@@ -3,6 +3,7 @@ if(selection){
 	if(!edit_points)
 		edit_points = true
 	else{
+		global.action = false;
 		edit_points = false;
 		selection = false;
 		point_x = points_path[index_path].x;

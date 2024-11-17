@@ -1,6 +1,4 @@
 /// @description 
-
-
 if(movement_pointer){
 	movement_pointer = false;
 	image_blend = c_white;
@@ -18,5 +16,3 @@ if(!instance_exists(access_fast)){
 	access_fast.element = id;
 }else 
 	instance_destroy(access_fast);
-
-

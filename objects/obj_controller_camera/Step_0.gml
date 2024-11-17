@@ -54,8 +54,8 @@ camera_set_view_size(view_camera[0], width_camera, height_camera);
 
 
 // que no salga de la habitación la cámara xd
-camera_x = clamp(camera_x, 0, obj_interfaz_controller.lenght_level_width - camera_get_view_width(view_camera[0]));
-camera_y = clamp(camera_y, 0, obj_interfaz_controller.lenght_level_height - camera_get_view_height(view_camera[0])); // el error esta aqui 
+//camera_x = clamp(camera_x, 0, obj_interfaz_controller.lenght_level_width - camera_get_view_width(view_camera[0]));
+//camera_y = clamp(camera_y, 0, obj_interfaz_controller.lenght_level_height - camera_get_view_height(view_camera[0])); // el error esta aqui 
 
 //le ponemos la posicion en la camara
 camera_set_view_pos(view_camera[0],camera_x,camera_y);
