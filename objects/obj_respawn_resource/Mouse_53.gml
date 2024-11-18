@@ -1,6 +1,6 @@
 /// @description 
 
-
+if(global.play_mockup) exit;
 
 if(global.id_selection == id){
 	var _creation = instance_create_depth(position_x_creation, position_y_creation, depth -1, object_respawn);

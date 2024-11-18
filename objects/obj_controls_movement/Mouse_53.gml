@@ -1,5 +1,5 @@
 /// @description 
-if(global.action) exit;
+
 if(global.id_selection == id){
 	if(color == c_lime){
 		var _player = instance_nearest(global.position_cursor_x, global.position_cursor_y, obj_player);
@@ -11,6 +11,7 @@ if(global.id_selection == id){
 	}
 	
 }
+if(global.action) exit;
 
 if(instance_exists(global.id_selection)) exit;
 

@@ -1,2 +1,7 @@
-/// @description Inserte aquí la descripción
-// Puede escribir su código en este editor
+/// @description 
+x = x_position_prev;
+y = y_position_prev;
+
+speed = 0;
+
+direction = 0;

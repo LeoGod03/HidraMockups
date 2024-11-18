@@ -1,11 +1,14 @@
 /// @description 
+
+if(!global.play_mockup) exit; 
+
 if(direction <= 90 || direction >= 270)
 	image_xscale = 1;
 else
 	image_xscale = -1;
 			
-y = clamp(y,  290, obj_interfaz_controller.lenght_level_height + 145);
-x = clamp(x, 190, obj_interfaz_controller.lenght_level_width - 256);
+y = clamp(y, 0, obj_interfaz_controller.lenght_level_height);
+x = clamp(x, 0, obj_interfaz_controller.lenght_level_width);
 
 if(variable_instance_exists(id, "sprites")){
 	if(direction >= 45 && direction <= 135)

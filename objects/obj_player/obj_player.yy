@@ -15,7 +15,10 @@
     "name":"Fhaters",
     "path":"folders/Leo/Fhaters.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_element_mockup",
+    "path":"objects/obj_element_mockup/obj_element_mockup.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

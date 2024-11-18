@@ -1,4 +1,6 @@
 /// @description 
+
+if(global.play_mockup) exit;
 if(selection){
 	if(!edit_points)
 		edit_points = true

@@ -1,5 +1,4 @@
-/// @description creación de sus accesos rápidos
-
+/// @description
 if(global.play_mockup) exit;
 
 if(movement_pointer){

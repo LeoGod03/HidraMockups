@@ -1,7 +1,8 @@
 /// @description 
 scr_change_direction_enemies();
 
-if(!instance_exists(mother)) exit;
+
+if(!instance_exists(mother) || !global.play_mockup) exit;
 
 
 if(state == STATE.IDLE){

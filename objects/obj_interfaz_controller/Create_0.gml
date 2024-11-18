@@ -18,8 +18,8 @@ global.position_cursor_y = -1;
 
 alarm[0] = game_get_speed(gamespeed_fps) * 0.5;
 
-lenght_level_width = 1280;
-lenght_level_height = 720;
+lenght_level_width = 320;
+lenght_level_height = 180;
 
 max_lenght_level_width = room_width;
 max_lenght_level_height = room_height;

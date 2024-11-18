@@ -2,6 +2,8 @@
 
 scr_change_direction_enemies();
 
+if(!global.play_mockup) exit;
+
 target = collision_line(x, y, collision_points[0], collision_points[1], obj_player, true, false);
 
 if(instance_exists(target)){

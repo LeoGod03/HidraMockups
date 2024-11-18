@@ -25,6 +25,8 @@ function scr_globales_leo(){
 	global.list_resources = [];
 	global.action = false;
 	
+	global.play_mockup = false;
+	
 	// categoria| columna| recurso
 	
 	// columna 1 de todas las categorias

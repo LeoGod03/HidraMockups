@@ -1,2 +1,3 @@
-/// @description Inserte aquí la descripción
-// Puede escribir su código en este editor
+/// @description 
+x_position_prev = x;
+y_position_prev = y;

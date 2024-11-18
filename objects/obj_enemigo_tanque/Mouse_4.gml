@@ -1,4 +1,7 @@
 /// @description 
+
+if(global.play_mockup) exit;
+
 if(movement_pointer){
 	movement_pointer = false;
 	image_blend = c_white;

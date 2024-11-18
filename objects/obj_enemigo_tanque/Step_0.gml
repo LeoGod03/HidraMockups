@@ -5,6 +5,8 @@ array_size = array_length(points);
 
 image_blend = (selection) ? c_blue : c_white;
 
+if(!global.play_mockup) exit;
+
 if(state == STATE.IDLE){
 	
 	if(!selection && !edit_points && array_size > 0){

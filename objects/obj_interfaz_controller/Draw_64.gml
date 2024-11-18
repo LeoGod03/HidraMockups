@@ -1,5 +1,8 @@
 /// @description 
 //dibujar los paneles de la GUI
+
+if(global.play_mockup) exit;
+
 if(!variable_global_exists("width") && !variable_global_exists("height")) exit;
 
 

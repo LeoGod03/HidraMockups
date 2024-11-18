@@ -1,4 +1,7 @@
 /// @description 
+
+if(global.play_mockup) exit;
+
 if(!selection) exit;
 
 if(place_meeting(global.position_cursor_x, global.position_cursor_y, obj_punto_path)) exit; // si no esta tocando punto

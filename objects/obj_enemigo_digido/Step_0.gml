@@ -1,4 +1,6 @@
 /// @description 
+
+if(!global.play_mockup) exit;
 target = instance_nearest(x, y, obj_player);
 
 if(instance_exists(target)){
