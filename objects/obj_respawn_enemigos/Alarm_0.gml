@@ -10,6 +10,8 @@ do{
 	
 }until(_xx >= 0 && _xx <= obj_interfaz_controller.lenght_level_width && _yy >= 0 && _yy <= obj_interfaz_controller.lenght_level_height);
 
-instance_create_depth(_xx, _yy, depth - 1, enemy_create);
+var _enemy = instance_create_depth(_xx, _yy, depth - 1, enemy_create);
+
+array_push(child, _enemy);
 
 alarm[0] = game_get_speed(gamespeed_fps) * time_respawn;
