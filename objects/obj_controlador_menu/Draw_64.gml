@@ -18,10 +18,17 @@ draw_text(150, 975, word);
 draw_set_color(c_black);
 draw_text(1750, 50, "V:" + GM_version);
 
+draw_set_color(c_black);
+draw_text(1920 / 2 - 277.5, 852.5, eslogan);
+draw_set_color(c_yellow);
+draw_text(1920 / 2 - 275, 850, eslogan);
+
 
 draw_set_font(fnt_titles);
 
 for(var _index = 0; _index < array_length(title); _index ++){
+	draw_set_color(c_black);
+	draw_text(650 + 60 * _index + 5, 205, title[_index]);
 	draw_set_color(colors[_index]);
 	draw_text(650 + 60 * _index, 200, title[_index]);
 }
