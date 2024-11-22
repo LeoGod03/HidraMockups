@@ -5,7 +5,7 @@
   "managed":true,
   "name":"obj_button_categorie_enemies",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_menu_button_bar","path":"objects/obj_menu_button_bar/obj_menu_button_bar.yy",},"propertyId":{"name":"position_x","path":"objects/obj_menu_button_bar/obj_menu_button_bar.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"450",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_menu_button_bar","path":"objects/obj_menu_button_bar/obj_menu_button_bar.yy",},"propertyId":{"name":"position_x","path":"objects/obj_menu_button_bar/obj_menu_button_bar.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"800",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_menu_button_bar","path":"objects/obj_menu_button_bar/obj_menu_button_bar.yy",},"propertyId":{"name":"position_y","path":"objects/obj_menu_button_bar/obj_menu_button_bar.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"25",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_menu_button_bar","path":"objects/obj_menu_button_bar/obj_menu_button_bar.yy",},"propertyId":{"name":"text_info","path":"objects/obj_menu_button_bar/obj_menu_button_bar.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Enemies",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_menu_button_bar","path":"objects/obj_menu_button_bar/obj_menu_button_bar.yy",},"propertyId":{"name":"index_selection","path":"objects/obj_menu_button_bar/obj_menu_button_bar.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},

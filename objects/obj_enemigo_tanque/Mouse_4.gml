@@ -11,8 +11,15 @@ if(movement_pointer){
 
 if(global.action) exit;
 
-if(!selection)
+if(!selection){
+	for(var _index = 0; _index < instance_number(obj_enemigo); _index ++){
+		var _enemy = instance_find(obj_enemigo, _index);
+		if(variable_instance_exists(_enemy, "selection"))
+			_enemy.selection = false;
+		
+	}
 	alarm[0] = 10;
+}
 
 if(!instance_exists(access_fast)){
 	access_fast = instance_create_depth(x, y, depth, obj_control_accesos_rapidos);

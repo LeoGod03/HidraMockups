@@ -9,6 +9,7 @@ if(selection){
 		global.action = false;
 		edit_points = false;
 		selection = false;
+		instance_destroy(access_fast);
 		point_x = points[index_path].x;
 		point_y = points[index_path].y;
 	}

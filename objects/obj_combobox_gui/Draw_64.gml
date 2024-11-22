@@ -19,8 +19,10 @@ draw_roundrect(position_x - width / 2 * factor_font + border,
 			   
 //dibujamos contenido 
 draw_set_color(c_black);
-draw_text(position_y, position_x,string(selection_index + 1) + "." + selection_text);
+draw_text(position_x, position_y,string(selection_index + 1) + "." + selection_text);
 //draw_text(1000, 900, string(device_mouse_y_to_gui(0) - position_y - 30) + "/" + string(selection_index_prev));
+
+
 
 if(!show_list) exit;
 // dibujamos lista 

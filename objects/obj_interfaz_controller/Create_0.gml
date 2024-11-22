@@ -1,6 +1,8 @@
 /// @description
-panel_top_active = true;
-panel_left_active = true;
+depth = 1;
+
+panel_top_active = false;
+panel_left_active = false;
 
 grid_draw_active = false;
 
@@ -25,3 +27,6 @@ max_lenght_level_width = room_width;
 max_lenght_level_height = room_height;
 
 list_elements_panel = [];
+
+
+alarm[1] = 10;

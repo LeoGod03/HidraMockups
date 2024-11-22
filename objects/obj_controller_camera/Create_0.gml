@@ -22,3 +22,5 @@ max_height_camera = obj_interfaz_controller.lenght_level_height * 0.95;
 
 //camera_set_view_size(view_camera[0], width_camera, height_camera);
 zoom_view = false;
+
+

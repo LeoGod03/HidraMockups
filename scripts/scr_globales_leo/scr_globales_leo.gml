@@ -21,6 +21,11 @@ function scr_globales_leo(){
 	
 	#macro SIZEPREF 16
 	
+	global.rooms_list = []; 
+	
+	global.index_list = 0;
+
+	
 	global.index_column = 0;
 	global.list_resources = [];
 	global.action = false;
