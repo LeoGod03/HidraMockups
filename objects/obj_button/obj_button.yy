@@ -32,6 +32,7 @@
     {"$GMObjectProperty":"v1","%Name":"position_y","filters":[],"listItems":[],"multiselect":false,"name":"position_y","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"text_info","filters":[],"listItems":[],"multiselect":false,"name":"text_info","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":2,},
     {"$GMObjectProperty":"v1","%Name":"border","filters":[],"listItems":[],"multiselect":false,"name":"border","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"font_text","filters":[],"listItems":[],"multiselect":false,"name":"font_text","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"fnt_panel","path":"fonts/fnt_panel/fnt_panel.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"fnt_panel","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

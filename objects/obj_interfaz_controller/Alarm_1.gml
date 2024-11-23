@@ -7,5 +7,5 @@ panel_left_active = true;
 panel_top_active = true;
 
 instance_create_depth(0, 0, -1, obj_button_categorie_player);
-instance_create_depth(0, 0, -1, obj_controlador_ejecucion);
+instance_create_depth(0, 0, -1, obj_buttons_ejecucion);
 instance_create_depth(0, 0, -1, obj_combobox_gui);

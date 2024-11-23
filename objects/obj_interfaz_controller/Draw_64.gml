@@ -21,14 +21,17 @@ if(panel_left_active){
 	draw_sprite(spr_rectangulo_panel_left, 0, 0, 210);
 	draw_text(150, 1080 / 2, "Panel left");
 	
-	draw_set_color(c_black);
-	draw_rectangle( 20, 230, 265, 380, 0);
 	
-	if(global.rooms_list[global.index_list].image != noone){
+	for(var _index = 0; _index <= global.index_list; _index ++){
+		draw_set_color(c_black);
+		draw_rectangle( 20, 230 + 200 * _index, 265, 380 + 200 * _index, 0);
+	
+		if(sprite_exists(global.rooms_list[_index].image)){
 		
-		draw_sprite_ext(global.rooms_list[global.index_list].image, 0, 25, 232.5,
-						245 / 1920, 150 / 1080, 0, c_white, 1);	
+			draw_sprite_ext(global.rooms_list[_index].image, 0, 25, 232.5 + 200 *_index,
+							245 / 1920, 150 / 1080, 0, c_white, 1);	
 						
+		}
 	}
 	
 }
