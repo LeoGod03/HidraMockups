@@ -22,3 +22,7 @@ edit_points = false;
 index_path = 0;
 
 touch_point = false;
+
+index_creation = array_length(global.objects_room);
+
+array_push(global.objects_room, id);

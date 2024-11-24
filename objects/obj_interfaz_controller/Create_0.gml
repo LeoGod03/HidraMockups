@@ -30,3 +30,6 @@ list_elements_panel = [];
 
 
 alarm[1] = 10;
+
+index_mockup_selection = -1;
+index_file_control_selection = -1;

@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_control_click",
+  "%Name":"obj_controller_click",
   "eventList":[],
   "managed":true,
-  "name":"obj_control_click",
+  "name":"obj_controller_click",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_controls_movement","path":"objects/obj_controls_movement/obj_controls_movement.yy",},"propertyId":{"name":"type","path":"objects/obj_controls_movement/obj_controls_movement.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_respawn_resource","path":"objects/obj_respawn_resource/obj_respawn_resource.yy",},"propertyId":{"name":"sprite_resource","path":"objects/obj_respawn_resource/obj_respawn_resource.yy",},"resource":{"name":"spr_movement_click","path":"sprites/spr_movement_click/spr_movement_click.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_movement_click",},

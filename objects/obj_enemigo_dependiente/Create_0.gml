@@ -13,3 +13,7 @@ sprites[7] = spr_fantasma_normal_down_right;
 x_vector = 0;
 y_vector = 0;
 mother = noone;
+
+index_creation = array_length(global.objects_room);
+
+array_push(global.objects_room, id);

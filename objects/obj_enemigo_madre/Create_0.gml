@@ -21,3 +21,7 @@ distance_to_movement = 0;
 
 point_x = -1;
 point_y = -1;
+
+index_creation = array_length(global.objects_room);
+
+array_push(global.objects_room, id);

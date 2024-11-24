@@ -10,3 +10,6 @@ sprites[5] = spr_fantasma_normal_down_left;
 sprites[6] = spr_fantasma_normal_down;
 sprites[7] = spr_fantasma_normal_down_right;
 
+index_creation = array_length(global.objects_room);
+
+array_push(global.objects_room, id);

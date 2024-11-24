@@ -70,10 +70,10 @@ function scr_globales_leo(){
 	
 	//columna 4 de todas las categorias
 	for(var _index = 0; _index < 4; _index ++){
-		global.list_resources[_index][3][0] = obj_control_joystick;
-		global.list_resources[_index][3][1] = obj_control_keyboards;
-		global.list_resources[_index][3][2] = obj_control_click;
-		global.list_resources[_index][3][3] = obj_control_drag;
+		global.list_resources[_index][3][0] = obj_controller_joystick;
+		global.list_resources[_index][3][1] = obj_controller_keyboards;
+		global.list_resources[_index][3][2] = obj_controller_click;
+		global.list_resources[_index][3][3] = obj_controller_drag;
 	}
 	
 	enum ACCESSELEMENT{
@@ -83,7 +83,13 @@ function scr_globales_leo(){
 		PROPERTIES
 	}
 	
+	global.objects_room = [];
 	
+	global.list_json = [];
+	
+	global.path = "";
+	
+	global.index_room = 0;
 	
 	
 	

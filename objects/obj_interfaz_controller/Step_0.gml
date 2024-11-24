@@ -19,3 +19,19 @@ if(keyboard_check_pressed(ord("G"))){
 }
 
 
+index_file_control_selection = (device_mouse_x_to_gui(0) < 150 && device_mouse_y_to_gui(0) < 75) ? floor(device_mouse_x_to_gui(0) / 50) : -1;	
+
+
+if(device_mouse_y_to_gui(0) < 210){
+	index_mockup_selection = -1;
+	exit;
+}
+
+if(device_mouse_x_to_gui(0) > 285){
+	index_mockup_selection = -1;
+	exit;
+}
+
+index_mockup_selection = floor((device_mouse_y_to_gui(0) - 210) / 200);
+
+index_mockup_selection = clamp(index_mockup_selection, -1, global.index_list);

@@ -23,3 +23,7 @@ point_x = -1;
 point_y = -1;
 
 max_points = 2;
+
+index_creation = array_length(global.objects_room);
+
+array_push(global.objects_room, id);

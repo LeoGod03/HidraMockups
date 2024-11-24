@@ -1,22 +1,11 @@
 /// @description 
 if(selection_color != c_red) exit;
 
+instance_destroy(obj_combobox_gui);
+instance_destroy(obj_menu_button_bar);
+instance_destroy(obj_respawn_resource);
 
-if(sprite_exists(global.rooms_list[global.index_list].image))
-	sprite_delete(global.rooms_list[global.index_list].image);
-	
-screen_save_part("cap" + string(global.index_list) + ".png", 0, 0, 1920, 1080);
-var _sprite = sprite_add("cap" + string(global.index_list) + ".png", 0, 0, 0, 0, 0);
-global.rooms_list[global.index_list].image = _sprite;
+obj_interfaz_controller.panel_left_active = false;
+obj_interfaz_controller.panel_top_active = false;
 
-var _room = room_duplicate(rm_test_leo);
-
-var _room_instance = {
-	room_id: _room,
-	image: noone
-}
-
-array_push(global.rooms_list, _room_instance);
-global.index_list ++;
-
-room_goto(global.rooms_list[global.index_list].room_id);
+alarm[0] = 10;
