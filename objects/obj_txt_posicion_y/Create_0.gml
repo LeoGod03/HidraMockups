@@ -1,7 +1,7 @@
 texto = "";  // Variable para almacenar el texto ingresado
 //max_caracteres = 20;  // Máximo de caracteres permitidos
 activo = false;  // Para controlar si el campo está activo
-global.panel_dos_y = 216;//se posiciona al inicio de nuestro panel
+global.panel_dos_y = 415;//se posiciona al inicio de nuestro panel
 global.panel_dos_x = 1770;//se posiciona a la mitad de nustro panel 2
 
 //variables para nuestro propio txt alpha
@@ -27,7 +27,7 @@ ch_activado="";
 
 retornar = false;
 
-get_scale_y = function() {
+get__posicion_y = function() {
     if(retornar){
 		if(activo_negativo){
 			if(string_length(texto)>0){ 
@@ -42,12 +42,12 @@ get_scale_y = function() {
 	}
 };
 
-limpiar_scale_y = function(){
+limpiar_posicion_y = function(){
 	texto = "";
 	activo_negativo = false;
 };
 
 
-set_scale_y = function(_scale_y){
-	texto = _scale_y;
+set_posicion_y = function(_posicion_y){
+	texto = _posicion_y;
 };
