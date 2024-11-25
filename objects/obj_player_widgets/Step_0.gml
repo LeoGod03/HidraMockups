@@ -27,7 +27,7 @@ if(instance_exists(resource)){
 					
 					//Cuando el widget se desactiva y tiene un valor vacio tomamos el valor del objeto
 					if(!widgets_instance.posicion_y.activo){
-						widgets_instance.posicion_y.texto= resource.y;
+						widgets_instance.posicion_y.texto = resource.y;
 					}
 					
 					if(!widgets_instance.posicion_x.activo){
@@ -86,7 +86,7 @@ if(instance_exists(resource)){
 						resource.image_alpha  = widgets_instance.get_alpha();
 				}
 
-				if(!(widgets_instance.get_scale_x()==undefined)){
+				if(widgets_instance.get_scale_x()!=undefined){
 					if((widgets_instance.get_scale_x()=="")){
 						resource.image_xscale = 1;
 					}else

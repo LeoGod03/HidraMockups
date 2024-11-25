@@ -10,9 +10,8 @@ if(movement_pointer){
 }
 if(global.action) exit;
 
-with(obj_player_widgets){
-	resource = other.id;
-}
+if(obj_panel_right.panel_right && obj_panel_right.element != id)
+	obj_panel_right.alarm[2] = 5;
 
 if(!instance_exists(access_fast)){
 	access_fast = instance_create_depth(x, y, depth, obj_controller_accesos_rapidos);

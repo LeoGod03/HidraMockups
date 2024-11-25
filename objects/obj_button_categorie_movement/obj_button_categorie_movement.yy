@@ -11,8 +11,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_menu_button_bar","path":"objects/obj_menu_button_bar/obj_menu_button_bar.yy",},"propertyId":{"name":"index_selection","path":"objects/obj_menu_button_bar/obj_menu_button_bar.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
   ],
   "parent":{
-    "name":"Leo",
-    "path":"folders/Leo.yy",
+    "name":"GUI",
+    "path":"folders/Leo/GUI.yy",
   },
   "parentObjectId":{
     "name":"obj_menu_button_bar",
