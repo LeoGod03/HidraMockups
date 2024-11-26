@@ -15,7 +15,6 @@ if (activo) {
 if (keyboard_lastchar != "") {
     numero_ingresado = keyboard_lastchar;
     
-    // Verificar si el carácter es '0' o '1' y no se ha agregado un punto aún
     if (keyboard_lastchar >= "0" && keyboard_lastchar <= "6" && string_count(".", texto) == 0) {
         if (string_length(texto) < num_ingresado_permitidos) {
             texto += keyboard_lastchar; // Agregar '0' o '1' antes del punto
