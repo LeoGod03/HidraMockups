@@ -9,6 +9,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_menu_button_bar","path":"objects/obj_menu_button_bar/obj_menu_button_bar.yy",},"propertyId":{"name":"position_y","path":"objects/obj_menu_button_bar/obj_menu_button_bar.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"25",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_menu_button_bar","path":"objects/obj_menu_button_bar/obj_menu_button_bar.yy",},"propertyId":{"name":"text_info","path":"objects/obj_menu_button_bar/obj_menu_button_bar.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Movement",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_menu_button_bar","path":"objects/obj_menu_button_bar/obj_menu_button_bar.yy",},"propertyId":{"name":"index_selection","path":"objects/obj_menu_button_bar/obj_menu_button_bar.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_menu_button_bar","path":"objects/obj_menu_button_bar/obj_menu_button_bar.yy",},"propertyId":{"name":"neighbor","path":"objects/obj_menu_button_bar/obj_menu_button_bar.yy",},"resource":{"name":"obj_button_categorie_buttons","path":"objects/obj_button_categorie_buttons/obj_button_categorie_buttons.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_button_categorie_buttons",},
   ],
   "parent":{
     "name":"GUI",

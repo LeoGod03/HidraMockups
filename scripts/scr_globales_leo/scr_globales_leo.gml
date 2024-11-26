@@ -16,7 +16,8 @@ function scr_globales_leo(){
 		PATROL,
 		CREATION,
 		FLY,
-		RETURN
+		RETURN,
+		JUMP
 	}
 	
 	#macro SIZEPREF 16
@@ -45,6 +46,7 @@ function scr_globales_leo(){
 	global.list_resources[2][0][1] = obj_respawn_fantasmas_creator;
 	
 	global.list_resources[3][0][0] = obj_respawn_fantasma_patrulla;
+	
 	
 	//columna 2 de todas las categorias
 	global.list_resources[0][1][0] = obj_respawn_fantasma_normal;
@@ -75,6 +77,12 @@ function scr_globales_leo(){
 		global.list_resources[_index][3][2] = obj_controller_click;
 		global.list_resources[_index][3][3] = obj_controller_drag;
 	}
+	
+	global.list_resources[0][4][0] = obj_respawn_button_circle;
+	global.list_resources[0][4][1] = obj_respawn_button_circle_largo;
+	global.list_resources[0][4][2] = obj_respawn_button_cuadrado;
+	global.list_resources[0][4][3] = obj_respawn_button_cuadrado_largo;
+	
 	
 	enum ACCESSELEMENT{
 		MOVEMENT,

@@ -16,3 +16,5 @@ factor_font = font_get_size(fnt_text_resources);
 show_list = false;
 selection = false;
 enter_options = false;
+
+instance_create_depth(0, 0, -1, obj_button_agregar);

@@ -11,7 +11,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemigo","path":"objects/obj_enemigo/obj_enemigo.yy",},"propertyId":{"name":"life","path":"objects/obj_enemigo/obj_enemigo.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"100",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemigo","path":"objects/obj_enemigo/obj_enemigo.yy",},"propertyId":{"name":"life_divisor","path":"objects/obj_enemigo/obj_enemigo.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"life/16",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemigo","path":"objects/obj_enemigo/obj_enemigo.yy",},"propertyId":{"name":"velocity","path":"objects/obj_enemigo/obj_enemigo.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.5",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemigo","path":"objects/obj_enemigo/obj_enemigo.yy",},"propertyId":{"name":"range","path":"objects/obj_enemigo/obj_enemigo.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"96",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_element_mockup","path":"objects/obj_element_mockup/obj_element_mockup.yy",},"propertyId":{"name":"range","path":"objects/obj_element_mockup/obj_element_mockup.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"100",},
   ],
   "parent":{
     "name":"Enemies",

@@ -1,7 +1,7 @@
 function scr_movement_joystick(){
 	
 	if(device_mouse_check_button_pressed(0, mb_left)){
-		if(device_mouse_x_to_gui(0) >= 290 && device_mouse_x_to_gui(0) <= global.width / 2 &&
+		if(device_mouse_x_to_gui(0) >= 50 && device_mouse_x_to_gui(0) <= global.width / 2 &&
 		   device_mouse_y_to_gui(0) >= global.height / 2){
 			activate = true;
 			joystick_x = device_mouse_x_to_gui(0);
@@ -26,7 +26,7 @@ function scr_movement_joystick(){
 		movement_y = -dsin(angle_joystick) * min(128, distance);
 	
 	}else{
-		joystick_x = 450;
+		joystick_x = 250;
 		joystick_y = 900;
 		movement_x = 0;
 		movement_y = 0;

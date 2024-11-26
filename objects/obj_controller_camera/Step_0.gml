@@ -7,7 +7,7 @@ mouse_position_y = device_mouse_raw_y(0);
 camera_x = camera_get_view_x(view_camera[0]);
 camera_y = camera_get_view_y(view_camera[0]);
 // si presiona el ratón o dedo hace la operación 
-if(keyboard_check(vk_space)){
+if(keyboard_check(vk_space) && !global.play_mockup){
 	//if (mouse_check_button(mb_left) && 
 	if(height_camera < obj_interfaz_controller.lenght_level_height){
 		// el valor por el que se multiplica (0.5) es la velocidad,puedes jugar con los valores

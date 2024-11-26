@@ -2,8 +2,8 @@
 position_x = 700 + 160 * position;
 position_y = 110;
 
-width = sprite_get_width(sprite_resource) * 3;
-height = sprite_get_width(sprite_resource) * 3;
+width = sprite_get_width(sprite_resource) * 6;
+height = sprite_get_width(sprite_resource) * 6;
 
 selection = false;
 

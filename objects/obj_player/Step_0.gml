@@ -1,6 +1,9 @@
 /// @description 
 
-if(!global.play_mockup) exit; 
+if(!global.play_mockup) {
+	state = STATE.IDLE;
+	exit; 
+}
 
 if(direction <= 90 || direction >= 270)
 	image_xscale = 1;
@@ -23,6 +26,32 @@ if(variable_instance_exists(id, "sprites")){
 	
 }
 
-if(type_movement == -1) exit;
 
-scr_movements(type_movement);
+
+if(state == STATE.IDLE)
+	scr_movements(type_movement);
+else if(state == STATE.JUMP){
+	
+	if(fly){
+		if(jump_distance <= jump_force * 4){
+			y-= jump_force;
+			jump_distance += jump_force;
+		}else
+			fly = false;
+	}else{
+		y += jump_force * 0.5;
+		jump_distance -= jump_force * 0.5;
+		if(jump_distance <= 0){
+			jump_distance = 0;
+			fly = true;
+			state = STATE.IDLE;
+		}
+				
+	}	
+}else if(state == STATE.ATTACK){
+	if(!push){
+		push = true;
+		effect_create_above(ef_flare, x + lengthdir_x(range / 2, direction), y + lengthdir_y(range / 2, direction), 0.25, c_red);
+		alarm[6] = game_get_speed(gamespeed_fps) * 0.25;
+	}
+}

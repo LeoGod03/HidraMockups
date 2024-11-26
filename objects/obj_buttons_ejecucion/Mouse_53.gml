@@ -11,6 +11,7 @@ switch(index_selection){
 			instance_destroy(obj_respawn_resource);
 			instance_destroy(obj_combobox_gui);
 			instance_destroy(obj_menu_button_bar);
+			instance_destroy(obj_button_agregar);
 			camera_set_view_pos(view_camera[0], 0, 0);
 			//instance_destroy(obj_interfaz_controller);
 		}

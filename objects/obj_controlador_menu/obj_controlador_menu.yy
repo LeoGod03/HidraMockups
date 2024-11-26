@@ -11,8 +11,8 @@
   "name":"obj_controlador_menu",
   "overriddenProperties":[],
   "parent":{
-    "name":"GUI",
-    "path":"folders/Leo/GUI.yy",
+    "name":"Controls",
+    "path":"folders/Leo/Controls.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -20,7 +20,7 @@ switch(index_selection){
 		break;
 	case ACCESSELEMENT.VISIBLE:
 		with(element)
-			image_alpha = (image_alpha == 0.25)? 1: 0.25;
+			visible = !visible;
 		break;
 	case ACCESSELEMENT.PROPERTIES:
 		with(obj_panel_right){
