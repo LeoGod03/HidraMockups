@@ -96,6 +96,7 @@ function scr_globales_leo(){
 	global.list_json = [];
 	
 	global.path = "";
+	global.file_name = "";
 	
 	global.index_room = 0;
 	

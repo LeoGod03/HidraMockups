@@ -11,6 +11,9 @@ show_debug_message("hola");
 
 if(string_length(global.path) == 0) exit;
 
+var _split_name = string_split(filename_name(global.path), ".", true);
+global.file_name = _split_name[0];
+
 var _rooms = scr_read_file();
 var _room_instance;
 var _size = array_length(global.rooms_list);
@@ -19,9 +22,13 @@ if(_rooms >= _size)
 
 for(var _index = 0; _index < _rooms; _index ++){
 	
+	var _sprite = noone;
+	if(file_exists(global.file_name + "G" + string(_index) + ".png"))
+		_sprite = sprite_add(global.file_name + "G" + string(_index) + ".png", 1, 0, 0, 0, 0);
+	
 	_room_instance = {
 		room_id: room_duplicate(rm_test_leo),
-		image: noone,
+		image: _sprite,
 		name: "Gamuckp" + string(_size +_index)
 	}
 	

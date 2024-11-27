@@ -14,6 +14,8 @@ else{
 	exit;
 }
 
+var _split_name = string_split(filename_name(global.path), ".", true);
+global.file_name = _split_name[0];
 var _room = room_duplicate(rm_test_leo);
 
 var _room_instance = {

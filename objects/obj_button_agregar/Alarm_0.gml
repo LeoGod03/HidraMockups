@@ -3,9 +3,10 @@
 
 if(sprite_exists(global.rooms_list[global.index_list].image))
 	sprite_delete(global.rooms_list[global.index_list].image);
-	
-screen_save_part("cap" + string(global.index_list) + ".png", 0, 0, 1920, 1080);
-var _sprite = sprite_add("cap" + string(global.index_list) + ".png", 0, 0, 0, 0, 0);
+
+var _sprite = noone;
+screen_save_part(global.file_name + "G" + string(global.index_list) + ".png", 0, 0, 1920, 1080);
+_sprite = sprite_add(global.file_name + "G" + string(global.index_list) + ".png", 0, 0, 0, 0, 0);
 global.rooms_list[global.index_list].image = _sprite;
 
 var _room = room_duplicate(rm_test_leo);

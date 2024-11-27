@@ -6,8 +6,8 @@ global.objects_room = [];
 
 
 
-if(file_exists("cap" + string(global.index_room) + ".png") && !sprite_exists(global.rooms_list[global.index_room].image))
-	global.rooms_list[global.index_room].image = sprite_add("cap" + string(global.index_room) + ".png", 1, 0, 0, 0, 0);
+//if(file_exists("cap" + string(global.index_room) + ".png") && !sprite_exists(global.rooms_list[global.index_room].image))
+	//global.rooms_list[global.index_room].image = sprite_add("cap" + string(global.index_room) + ".png", 1, 0, 0, 0, 0);
 
 if(global.play_mockup){
 	instance_destroy(obj_respawn_resource);
