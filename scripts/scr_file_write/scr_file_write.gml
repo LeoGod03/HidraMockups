@@ -1,8 +1,5 @@
 
 function scr_file_write(){
-
-	if (array_length(string_split(global.path, ".")) == 1)
-		global.path += ".hidra"
 	
 	if(file_exists(global.path))
 		file_delete(global.path);

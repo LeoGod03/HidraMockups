@@ -9,8 +9,8 @@ draw_sprite_ext(sprite_resource, 0, position_x, position_y, 6, 6, 0, c_white, 1)
 
 // dar efecto CSS jajaja
 
-draw_set_color(c_black);
-draw_line_width_color(position_x - width /2 + 5, position_y - height / 2, position_x - width / 2 + 5, position_y + height / 2, 5, c_black, c_dkgray);
+//draw_set_color(c_black);
+//draw_line_width_color(position_x - width /2 + 5, position_y - height / 2, position_x - width / 2 + 5, position_y + height / 2, 5, c_black, c_dkgray);
 //dibujamos el texto de informacion
 
 draw_set_halign(fa_center);

@@ -6,6 +6,7 @@ if(index_file_control_selection != -1){
 	
 	switch(index_file_control_selection){
 		case 0:
+			global.list_json[global.index_room] = scr_generate_json();
 			scr_file_write();
 			break;
 		case 1:
@@ -31,5 +32,4 @@ if(index_mockup_selection != -1){
 
 	alarm[2] = 10;
 }
-
 

@@ -1,5 +1,5 @@
 /// @description 
-global.play_mockup = false;
+//global.play_mockup = false;
 border = 5;
 index_selection = -1;
 

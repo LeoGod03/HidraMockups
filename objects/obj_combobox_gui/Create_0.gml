@@ -17,4 +17,4 @@ show_list = false;
 selection = false;
 enter_options = false;
 
-instance_create_depth(0, 0, -1, obj_button_agregar);
+alarm[0] = 10;

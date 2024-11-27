@@ -3,8 +3,14 @@ draw_set_font(fnt_text_resources);
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 
+var _text_x = position_x - string_width(text_info) * 0.75 -  width / 2 * factor_font;
+
+
 //dibujamos el contorno
 draw_set_color(c_black);
+
+draw_text(_text_x, position_y, text_info);
+
 draw_roundrect(position_x - width / 2 * factor_font,
 			   position_y - 30,
 			   position_x + width / 2 * factor_font,

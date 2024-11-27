@@ -1,4 +1,9 @@
 /// @description 
+if(movement_pointer){
+	x = global.position_cursor_x;
+	y = global.position_cursor_y; 
+}
+
 scr_change_direction_enemies();
 
 array_size = array_length(points);

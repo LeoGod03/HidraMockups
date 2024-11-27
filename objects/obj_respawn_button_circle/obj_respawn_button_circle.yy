@@ -6,6 +6,7 @@
   "name":"obj_respawn_button_circle",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_respawn_resource","path":"objects/obj_respawn_resource/obj_respawn_resource.yy",},"propertyId":{"name":"text_info","path":"objects/obj_respawn_resource/obj_respawn_resource.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Circular",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_respawn_resource","path":"objects/obj_respawn_resource/obj_respawn_resource.yy",},"propertyId":{"name":"object_respawn","path":"objects/obj_respawn_resource/obj_respawn_resource.yy",},"resource":{"name":"obj_boton_maqueta","path":"objects/obj_boton_maqueta/obj_boton_maqueta.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_boton_maqueta",},
   ],
   "parent":{
     "name":"Respawns",

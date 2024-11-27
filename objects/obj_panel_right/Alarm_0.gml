@@ -8,7 +8,11 @@ if(instance_exists(position_x)) {
 	rotation.text = string(element.image_angle);
 	alpha.text = string(element.image_alpha);
 	scale_x.text = string(element.image_xscale);
-	scale_y.text = string(element.image_yscale)
+	scale_y.text = string(element.image_yscale);
+	if(instance_exists(combobox))
+		combobox.selection_text = element.action;
+	if(instance_exists(frame))
+		frame.text = string(element.action);
 	exit;
 }
 
@@ -85,3 +89,34 @@ rotation.text = string(element.image_angle);
 alpha.text = string(element.image_alpha);
 scale_x.text = string(element.image_xscale);
 scale_y.text = string(element.image_yscale)
+
+if(!variable_instance_exists(element, "components")) {
+	instance_destroy(frame);
+	instance_destroy(combobox);
+	exit;
+}
+var _names = struct_get_names(element.components);
+show_debug_message(_names);
+for(var _index = 0; _index < array_length(_names); _index ++){
+	if(_names[_index] == "combobox" && !instance_exists(combobox)){
+		combobox = instance_create_depth(0, 0, -1, obj_combobox_gui_elements);
+		combobox.position_x = 1750;
+		combobox.position_y = 700 + 100 * _index;
+		
+		combobox.options_list = element.components.combobox.list;
+		show_debug_message(combobox.options_list); 
+	}else if(_names[_index] == "textfield" && !instance_exists(frame)){
+		frame = instance_create_depth(0, 0, -1, obj_text_field);
+		frame.position_x = 1550;
+		frame.position_y = 700 + 100 * _index;
+		
+		frame.value_max = element.components.textfield.max;
+		frame.value_min = element.components.textfield.min;
+		frame.text_info = "Gameckup:";
+		frame.text = string(element.action);
+	}
+}
+
+if(instance_exists(combobox))
+	combobox.selection_text = element.action;
+			

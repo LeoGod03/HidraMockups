@@ -1,4 +1,9 @@
-/// @description 
+/// @description
+
+if(movement_pointer){
+	x = global.position_cursor_x;
+	y = global.position_cursor_y; 
+}
 
 if(!global.play_mockup) {
 	state = STATE.IDLE;
@@ -55,3 +60,5 @@ else if(state == STATE.JUMP){
 		alarm[6] = game_get_speed(gamespeed_fps) * 0.25;
 	}
 }
+
+

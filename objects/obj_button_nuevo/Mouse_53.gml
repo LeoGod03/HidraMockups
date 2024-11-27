@@ -7,6 +7,13 @@ show_debug_message(global.path);
 
 if(string_length(global.path) == 0) exit;
 
+if (array_length(string_split(global.path, ".")) == 1)
+		global.path += ".hidra"
+else{
+	show_message("Error en la ruta del archivo");
+	exit;
+}
+
 var _room = room_duplicate(rm_test_leo);
 
 var _room_instance = {

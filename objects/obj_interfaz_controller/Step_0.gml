@@ -4,6 +4,7 @@ global.position_cursor_y = mouse_y;
 
 global.position_cursor_y = clamp(global.position_cursor_y,  0, lenght_level_height);
 global.position_cursor_x = clamp(global.position_cursor_x, 0, lenght_level_width);
+
 if(keyboard_check_pressed(vk_f1))
 	window_set_fullscreen(!window_get_fullscreen());
 

@@ -24,8 +24,12 @@ switch(index_selection){
 		break;
 	case ACCESSELEMENT.PROPERTIES:
 		with(obj_panel_right){
-			element = other.element;
-			alarm[0] = 10;
+			if(element == other.element)
+				alarm[2] = 10;
+			else{
+				element = other.element;
+				alarm[0] = 10;
+			}
 		}
 		break;
 }		

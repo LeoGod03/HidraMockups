@@ -25,4 +25,4 @@ draw_text(position_x, position_y + 75, text_info);
 
 if(global.id_selection != id) exit;
 
-draw_sprite_ext(sprite_resource, 0, device_mouse_x_to_gui(0), device_mouse_y_to_gui(0), 6, 6, 0, c_white, 1);
+draw_sprite_ext(sprite_resource, 0, device_mouse_x_to_gui(0), device_mouse_y_to_gui(0), 5, 5, 0, c_white, 1);

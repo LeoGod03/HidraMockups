@@ -1,5 +1,8 @@
 /// @description 
-
+if(movement_pointer){
+	x = global.position_cursor_x;
+	y = global.position_cursor_y; 
+}
 
 image_blend = (selection) ? c_blue : c_white;
 

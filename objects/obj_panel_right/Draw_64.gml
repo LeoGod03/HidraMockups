@@ -1,4 +1,5 @@
 if(!panel_right) exit;
+if(global.play_mockup) exit;
 
 var _border=4;
 draw_set_color(c_black);

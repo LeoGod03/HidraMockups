@@ -1,4 +1,9 @@
 /// @description 
+if(movement_pointer){
+	x = global.position_cursor_x;
+	y = global.position_cursor_y; 
+}
+
 
 if(!global.play_mockup) exit;
 target = instance_nearest(x, y, obj_player);
