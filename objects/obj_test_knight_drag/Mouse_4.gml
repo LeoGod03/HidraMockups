@@ -1,3 +1,4 @@
-with(obj_player_widgets){
-	resource = other.id;
+with(obj_panel_right){
+	element = other.id;
+	alarm[0] = 10;
 }

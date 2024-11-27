@@ -23,9 +23,9 @@ switch(index_selection){
 			image_alpha = (image_alpha == 0.25)? 1: 0.25;
 		break;
 	case ACCESSELEMENT.PROPERTIES:
-		// aqui va el accesso a los textfields
-		// prueba room desde ram
-		//var _room = room_add();
-		//room_goto(_room);
+		with(obj_panel_right){
+			element = other.element;
+			alarm[0] = 10;
+		}
 		break;
 }		

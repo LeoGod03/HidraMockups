@@ -16,8 +16,8 @@
   "name":"obj_interfaz_controller",
   "overriddenProperties":[],
   "parent":{
-    "name":"Leo",
-    "path":"folders/Leo.yy",
+    "name":"Controls",
+    "path":"folders/Leo/Controls.yy",
   },
   "parentObjectId":null,
   "persistent":false,

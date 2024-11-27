@@ -48,7 +48,7 @@ if (string_length(texto) && !activo) {
 }
 
 //Retornamos el valor de texto
-if(!(texto=="") && activo == false){
+if(texto !="" && !activo){
 	retornar= true;
 }
 

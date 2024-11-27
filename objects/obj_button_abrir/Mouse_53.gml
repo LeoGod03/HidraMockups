@@ -6,7 +6,10 @@ if(selection_color != c_red) exit;
 
 global.path = get_open_filename("*hidra", "");
 
-if(global.path == "") exit;
+show_debug_message("hola");
+
+
+if(string_length(global.path) == 0) exit;
 
 var _rooms = scr_read_file();
 var _room_instance;
@@ -28,5 +31,6 @@ global.index_list = array_length(global.rooms_list) - 1;
 
 global.index_room = 0;
 global.rooms_list[0].room_id = room_duplicate(rm_test_leo);
+
 room_goto(global.rooms_list[0].room_id);
 

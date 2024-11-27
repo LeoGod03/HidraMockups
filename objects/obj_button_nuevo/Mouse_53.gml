@@ -3,7 +3,9 @@ if(selection_color != c_red) exit;
 
 global.path = get_save_filename("*.hidra", "");
 
-if(global.path == "") exit;
+show_debug_message(global.path);
+
+if(string_length(global.path) == 0) exit;
 
 var _room = room_duplicate(rm_test_leo);
 
