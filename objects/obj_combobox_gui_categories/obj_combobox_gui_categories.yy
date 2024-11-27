@@ -8,7 +8,8 @@
   "managed":true,
   "name":"obj_combobox_gui_categories",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_combobox_gui","path":"objects/obj_combobox_gui/obj_combobox_gui.yy",},"propertyId":{"name":"options_list","path":"objects/obj_combobox_gui/obj_combobox_gui.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Accion\", \"Aventura\", \"Estrategia\", \"RPG\"",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_combobox_gui","path":"objects/obj_combobox_gui/obj_combobox_gui.yy",},"propertyId":{"name":"options_list","path":"objects/obj_combobox_gui/obj_combobox_gui.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Accion\", \"Proximamente\", \"Proximamente\", \"Proximamente\"",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_combobox_gui","path":"objects/obj_combobox_gui/obj_combobox_gui.yy",},"propertyId":{"name":"position_x","path":"objects/obj_combobox_gui/obj_combobox_gui.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"480",},
   ],
   "parent":{
     "name":"GUI",

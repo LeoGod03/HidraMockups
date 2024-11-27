@@ -14,6 +14,7 @@ switch(index_selection){
 			instance_destroy(obj_button_agregar);
 			instance_destroy(obj_combobox_gui);
 			instance_destroy(obj_text_field);
+			instance_destroy(obj_controller_accesos_rapidos);
 			obj_panel_right.panel_right = false;
 			camera_set_view_pos(view_camera[0], 0, 0);
 			

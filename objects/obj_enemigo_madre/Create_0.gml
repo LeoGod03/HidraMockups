@@ -3,7 +3,7 @@
 // aquí estarán sus hijos
 child = []
 
-child_max = 4;
+action = 0;
 
 sprites[0] = spr_fantasma_madre_right;
 sprites[1] = spr_fantasma_madre_up_right;
@@ -25,3 +25,12 @@ point_y = -1;
 index_creation = array_length(global.objects_room);
 
 array_push(global.objects_room, id);
+
+components = {
+	"textfield":{
+		min: 0,
+		max: 4,
+		text_info: "Hijos:"
+	}
+	
+}

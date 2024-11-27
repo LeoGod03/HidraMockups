@@ -6,6 +6,7 @@ array_push(global.objects_room, id);
 components = {
 	"textfield": {
 		min : 0,
-		max : array_length(global.rooms_list) -1
+		max : array_length(global.rooms_list) -1,
+		text_info: "Gameckup:"
 	}
 }

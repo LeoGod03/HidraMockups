@@ -10,7 +10,7 @@ sprites[5] = spr_fantasma_tanque_down_left;
 sprites[6] = spr_fantasma_tanque_down;
 sprites[7] = spr_fantasma_tanque_down_right;
 
-points = [];
+points_path = [];
 
 
 selection = false;

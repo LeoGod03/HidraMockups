@@ -11,6 +11,10 @@ scr_change_direction_enemies();
 
 if(!instance_exists(mother) || !global.play_mockup) exit;
 
+if(life < 1)
+	state = STATE.DEAD;	
+
+
 
 if(state == STATE.IDLE){
 	

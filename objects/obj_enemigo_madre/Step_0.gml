@@ -9,16 +9,27 @@ scr_change_direction_enemies();
 
 if(!global.play_mockup) exit;
 
-target = collision_line(x, y, collision_points[0], collision_points[1], obj_player, true, false);
+if(life < 1 )
+	state = STATE.DEAD;
 
-if(instance_exists(target)){
+if(state != STATE.DEAD){
+	target = collision_line(x, y, collision_points[0], collision_points[1], obj_player, true, false);
+
+	if(instance_exists(target)){
 	
-	array_foreach(child, function(_element, _index){
-		_element.state = STATE.RUN
-		_element.target = target;
-	});	
+	
+		array_foreach(child, function(_element, _index){
+			_element.state = STATE.RUN
+			_element.target = target;
+		});
+		
+		if(action == 0){
+			change_direction = false;
+			state = STATE.ATTACK;
+		}
+		
+	}
 }
-
 if(state == STATE.IDLE){
 	speed = 0;
 	if(!change_direction){
@@ -31,14 +42,17 @@ if(state == STATE.IDLE){
 	
 	
 	if(distance_to_point(point_x, point_y) > 2)
-		move_towards_point(point_x, point_y, velocity);
+		mp_potential_step(point_x, point_y, velocity, false);
 	else{
 		// creacion de hijos
 		speed = 0;
-		if(array_length(child) < child_max){
+		if(array_length(child) < action){
 			randomize();
 			var _posibility = choose(1,2,3,4,5);
+			// tiene la posibilidad de crear hijos de 1/5
 			if(_posibility == 2){
+				
+				//creamos el hijo a uno de sus costados
 				var _xx, _yy;
 				var _vector_x, _vector_y;
 				do{
@@ -60,5 +74,12 @@ if(state == STATE.IDLE){
 		state = STATE.IDLE;
 		
 	}
+	
+}else if(state == STATE.ATTACK){
+	target = collision_line(x, y, collision_points[0], collision_points[1], obj_player, true, false);
+	if(!instance_exists(target))
+		state = STATE.IDLE;
+	else
+		move_towards_point(target.x, target.y, velocity);	
 	
 }

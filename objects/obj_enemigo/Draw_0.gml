@@ -1,5 +1,7 @@
 /// @description dibujar vida y demas
 
+if(state == STATE.DEAD) exit;
+
 draw_self();
 draw_set_color(c_white);
 

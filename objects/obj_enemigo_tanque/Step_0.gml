@@ -6,18 +6,21 @@ if(movement_pointer){
 
 scr_change_direction_enemies();
 
-array_size = array_length(points);
+array_size = array_length(points_path);
 
 image_blend = (selection) ? c_blue : c_white;
 
 if(!global.play_mockup) exit;
 
+if(life < 1)
+	state = STATE.DEAD;
+
 if(state == STATE.IDLE){
 	
 	if(!selection && !edit_points && array_size > 0){
 		state = STATE.PATROL;
-		point_x = points[0].x;
-		point_y = points[0].y;
+		point_x = points_path[0].x;
+		point_y = points_path[0].y;
 	}
 	
 }else if(state == STATE.PATROL){
@@ -34,8 +37,8 @@ if(state == STATE.IDLE){
 		if(point_x == -1){
 	
 			index_path = !index_path;
-			point_x = points[index_path].x;
-			point_y = points[index_path].y;
+			point_x = points_path[index_path].x;
+			point_y = points_path[index_path].y;
 		}
 	
 		if(point_distance(x ,y, point_x, point_y) > 1)

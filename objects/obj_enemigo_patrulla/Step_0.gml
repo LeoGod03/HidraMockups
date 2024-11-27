@@ -12,6 +12,9 @@ scr_change_direction_enemies();
 
 if(!global.play_mockup) exit;
 
+if(life < 1)
+	state = STATE.DEAD;
+
 if(state == STATE.IDLE){
 	
 	if(!selection && !edit_points && array_size > 0){
@@ -39,7 +42,7 @@ if(state == STATE.IDLE){
 		}
 	
 		if(point_distance(x ,y, point_x, point_y) > 1)
-			move_towards_point(point_x, point_y, velocity);
+			mp_potential_step(point_x, point_y, velocity, false);
 		else{
 			speed = 0;
 			point_x = -1;
@@ -56,6 +59,6 @@ if(state == STATE.IDLE){
 	if(!instance_exists(target))
 		state = STATE.IDLE;
 	else
-		move_towards_point(target.x, target.y, velocity);	
+		mp_potential_step(target.x, target.y, velocity, false);	
 }
 

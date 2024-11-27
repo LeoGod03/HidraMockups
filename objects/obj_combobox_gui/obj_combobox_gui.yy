@@ -33,9 +33,9 @@
     {"$GMObjectProperty":"v1","%Name":"position_y","filters":[],"listItems":[],"multiselect":false,"name":"position_y","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"100","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"options_list","filters":[],"listItems":[
         "\"Accion\"",
-        "\"Aventura\"",
-        "\"Estrategia\"",
-        "\"RPG\"",
+        "\"Proximamente\"",
+        "\"Proximamente\"",
+        "\"Proximamente\"",
       ],"multiselect":true,"name":"options_list","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Accion\"","varType":6,},
     {"$GMObjectProperty":"v1","%Name":"border","filters":[],"listItems":[],"multiselect":false,"name":"border","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"4","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"text_info","filters":[],"listItems":[],"multiselect":false,"name":"text_info","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":2,},

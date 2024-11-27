@@ -9,8 +9,10 @@ if(selection){
 		edit_points = false;
 		selection = false;
 		instance_destroy(access_fast);
-		point_x = points_path[index_path].x;
-		point_y = points_path[index_path].y;
+		if(array_size > 0){
+			point_x = points_path[index_path].x;
+			point_y = points_path[index_path].y;
+		}
 	}
 }
 array_foreach(points_path, function(_element, _index){ _element.visible = edit_points});

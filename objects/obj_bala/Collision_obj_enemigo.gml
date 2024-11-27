@@ -1,4 +1,5 @@
 /// @description 
 if(!global.play_mockup) exit;
 
-state = STATE.ATTACK;
+other.life -= 10;
+instance_destroy();

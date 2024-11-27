@@ -58,6 +58,13 @@ else if(state == STATE.JUMP){
 		push = true;
 		effect_create_above(ef_flare, x + lengthdir_x(range / 2, direction), y + lengthdir_y(range / 2, direction), 0.25, c_red);
 		alarm[6] = game_get_speed(gamespeed_fps) * 0.25;
+		with(obj_enemigo){
+			if(collision_circle(other.x + lengthdir_x(other.range / 2, other.direction),
+								other.y + lengthdir_y(other.range / 2, other.direction),
+								other.range / 2, obj_enemigo, true, false) == id){
+				life -= 10;						
+			}
+		}
 	}
 }
 

@@ -112,7 +112,7 @@ for(var _index = 0; _index < array_length(_names); _index ++){
 		
 		frame.value_max = element.components.textfield.max;
 		frame.value_min = element.components.textfield.min;
-		frame.text_info = "Gameckup:";
+		frame.text_info = element.components.textfield.text_info;
 		frame.text = string(element.action);
 	}
 }

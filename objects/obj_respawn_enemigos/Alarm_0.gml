@@ -14,4 +14,4 @@ var _enemy = instance_create_depth(_xx, _yy, depth - 1, enemy_create);
 
 array_push(child, _enemy);
 
-alarm[0] = game_get_speed(gamespeed_fps) * time_respawn;
+alarm[0] = game_get_speed(gamespeed_fps) * action;

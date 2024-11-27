@@ -2,10 +2,10 @@
 
 
 
-title = ["H", "Y", "D", "R", "A", "M", "O", "C", "K", "U", "P", "S"];   //"HydraMockups";
+title = ["H", "I", "D", "R", "A", "M", "O", "C", "K", "U", "P", "S"];   //"HydraMockups";
 colors = array_create(array_length(title), c_white);
 
-word = "HydraSoftware 2024";
+word = "HidraSoftware 2024";
 
 eslogan = "Maquetar es divertido, maquetar es arte";
 

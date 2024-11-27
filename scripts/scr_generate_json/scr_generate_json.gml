@@ -15,11 +15,21 @@ function scr_generate_json(){
 	ds_map_add(_map_for_size, "Lenght", _size_list);
 	ds_list_add(_list_objects_room, _map_for_size);
 	for (_index = 0; _index < _size_list; _index++) {
-	    
+		
+		var _points = [];
+		
 		_element[_index] = ds_map_create();
 				
 		var _instance = global.objects_room[_index];
 		show_debug_message(_instance);
+		
+		
+		if(variable_instance_exists(_instance, "points_path")){
+			for(var _point = 0; _point < array_length(_instance.points_path); _point ++)
+				array_push(_points,[_instance.points_path[_point].x, _instance.points_path[_point].y]);	
+				
+		}
+	    
         
 		ds_map_add(_element[_index], "type", object_get_name(_instance.object_index)); // Convertir índice a nombre
 	    ds_map_add(_element[_index], "x", _instance.x);
@@ -31,6 +41,7 @@ function scr_generate_json(){
 		ds_map_add(_element[_index], "scale_y", _instance.image_yscale);
 		ds_map_add(_element[_index], "action", (variable_instance_exists(_instance, "action") ? _instance.action : noone));
 	    ds_map_add(_element[_index], "movement", (variable_instance_exists(_instance, "type_movement") ? _instance.type_movement : noone));
+		ds_map_add(_element[_index], "path", (variable_instance_exists(_instance, "points_path") ? _points : noone));
 		ds_list_add(_list_objects_room, _element[_index]);
 	}
 	
