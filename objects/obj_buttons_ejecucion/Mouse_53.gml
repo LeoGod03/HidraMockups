@@ -16,6 +16,9 @@ switch(index_selection){
 			instance_destroy(obj_text_field);
 			obj_panel_right.panel_right = false;
 			camera_set_view_pos(view_camera[0], 0, 0);
+			
+			if(instance_exists(obj_player))
+				camera_set_view_target(view_camera[0], obj_player);
 			global.index_column = 0;
 			//instance_destroy(obj_interfaz_controller);
 		}
@@ -29,6 +32,7 @@ switch(index_selection){
 			obj_interfaz_controller.alarm[0] = 5;
 			instance_create_depth(0, 0, -1, obj_combobox_gui_categories);
 			instance_create_depth(0, 0, -1, obj_button_categorie_player);
+			camera_set_view_target(view_camera[0], noone);
 			/*
 			for(var _index = 0; _index < array_length(buttons_categories); _index ++)
 				instance_create_depth(0, _index, -1, buttons_categories[_index]);
@@ -37,6 +41,5 @@ switch(index_selection){
 		}
 		
 		break;
-		
 	
 }
