@@ -1,6 +1,6 @@
 /// @description
 if(!global.play_mockup) {
-	alarm[0] = 1;
+	alarm[0] = 0;
 	exit;
 }
 var _xx, _yy;

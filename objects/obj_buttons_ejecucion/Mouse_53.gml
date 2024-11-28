@@ -20,6 +20,10 @@ switch(index_selection){
 			
 			if(instance_exists(obj_player))
 				camera_set_view_target(view_camera[0], obj_player);
+			if(instance_exists(obj_respawn_enemigos)){
+				with(obj_respawn_enemigos)
+					alarm[0] = game_get_speed(gamespeed_fps) * action;
+			}
 			global.index_column = 0;
 			//instance_destroy(obj_interfaz_controller);
 		}
@@ -33,6 +37,8 @@ switch(index_selection){
 			obj_interfaz_controller.alarm[0] = 5;
 			instance_create_depth(0, 0, -1, obj_combobox_gui_categories);
 			instance_create_depth(0, 0, -1, obj_button_categorie_player);
+			obj_interfaz_controller.panel_left_active = true;
+			obj_interfaz_controller.panel_top_active = true;
 			camera_set_view_target(view_camera[0], noone);
 			/*
 			for(var _index = 0; _index < array_length(buttons_categories); _index ++)

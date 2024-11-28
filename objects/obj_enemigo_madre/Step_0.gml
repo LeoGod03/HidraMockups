@@ -80,6 +80,6 @@ if(state == STATE.IDLE){
 	if(!instance_exists(target))
 		state = STATE.IDLE;
 	else
-		move_towards_point(target.x, target.y, velocity);	
+		mp_potential_step(target.x, target.y, velocity, false);	
 	
 }

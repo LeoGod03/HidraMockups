@@ -11,6 +11,8 @@ if(global.play_mockup){
 		obj_player.state = STATE.ATTACK;
 	else if (action == "Saltar")
 		obj_player.state = STATE.JUMP;
+	else if(action == "Disparar")
+		obj_player.alarm[5] = game_get_speed(gamespeed_fps) * 0.1;
 
 	
 }else{

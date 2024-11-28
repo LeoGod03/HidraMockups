@@ -20,7 +20,8 @@ if(global.play_mockup){
 	obj_interfaz_controller.panel_left_active = false;
 	obj_interfaz_controller.panel_top_active = false;
 	camera_set_view_pos(view_camera[0], 0, 0);
-}
+}else
+	//instance_create_depth(0, 0, -1, obj_buttons_ejecucion);
 
 if(array_length(global.list_json) == 0){
 	var _map = ds_map_create();
@@ -56,6 +57,8 @@ for(var _index = 0; _index < _length; _index ++){
 		sprite_index = _map[?"sprite"];
 		x = _map[?"x"];
 		y = _map[?"y"];
+		x_position_prev = _map[?"x_prev"];
+		y_position_prev = _map[?"y_prev"];
 		image_alpha = _map[?"alpha"];
 		image_angle = _map[?"rotation"];
 		image_xscale = _map[?"scale_x"];

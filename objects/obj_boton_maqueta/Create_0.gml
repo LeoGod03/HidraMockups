@@ -9,7 +9,7 @@ image_speed = 0;
 components = {
 	
 	combobox: {
-		list : ["Saltar", "Atacar"]
+		list : ["Saltar", "Atacar", "Disparar"]
 	}
 	
 }

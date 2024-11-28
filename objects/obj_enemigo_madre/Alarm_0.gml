@@ -19,4 +19,4 @@ do{
 	point_x = x + lengthdir_x(distance_to_movement, direction);
 	point_y = y + lengthdir_y(distance_to_movement, direction);
 	
-}until(point_x >= 0 && point_x <= obj_interfaz_controller.lenght_level_width && point_y >= 0 && point_y <= obj_interfaz_controller.lenght_level_height);
+}until(place_free(point_x, point_y) && point_x >= 0 && point_x <= obj_interfaz_controller.lenght_level_width && point_y >= 0 && point_y <= obj_interfaz_controller.lenght_level_height);

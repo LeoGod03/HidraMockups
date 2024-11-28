@@ -16,7 +16,6 @@ draw_set_valign(fa_middle);
 
 if(panel_top_active){
 	draw_sprite(spr_rectangulo_panel1, 0, 0, 0);
-	draw_text(global.width / 2,  global.height * 0.1, string(index_mockup_selection));
 	draw_set_color(c_black);
 	draw_line_width(350, 0, 350, 210, 2);
 	draw_text(175, 100, global.path);
@@ -34,7 +33,6 @@ if(panel_top_active){
 
 if(panel_left_active){
 	draw_sprite(spr_rectangulo_panel_left, 0, 0, 210);
-	draw_text(150, 1080 / 2, string(index_file_control_selection));
 	
 	if(index_mockup_selection != -1){
 		draw_set_color(c_maroon);

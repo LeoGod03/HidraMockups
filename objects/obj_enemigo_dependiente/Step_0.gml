@@ -26,7 +26,7 @@ if(state == STATE.IDLE){
 	if(!instance_exists(target) || distance_to_object(target) > range)
 		state = STATE.RETURN;
 	else
-		move_towards_point(target.x, target.y, velocity);
+		mp_potential_step(target.x, target.y, velocity, false);
 	
 }else if(state == STATE.RETURN){
 	if(instance_exists(mother)){
@@ -34,9 +34,9 @@ if(state == STATE.IDLE){
 						mother.x + mother.sprite_width * x_vector,
 						mother.y + mother.sprite_height * y_vector) > 1){
 							
-			move_towards_point(mother.x + mother.sprite_width * x_vector,
+			mp_potential_step(mother.x + mother.sprite_width * x_vector,
 							   mother.y + mother.sprite_height * y_vector,
-							   velocity);
+							   velocity, false);
 		}else
 			state = STATE.IDLE;
 	}
